@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkresponsivenavbar=self.webpackChunkresponsivenavbar||[]).push([[794],{24:function(e,a,s){s.r(a),s.d(a,{default:function(){return t}});s(791);var n=s.p+"static/media/img3.aedf2e86294fa4d1743f.jpg",i=s(184);function t(){return console.log("about page"),(0,i.jsx)("div",{className:"about-section",children:(0,i.jsx)("img",{src:n,alt:"",className:"img"})})}}}]);
+//# sourceMappingURL=794.b65d3fbc.chunk.js.map

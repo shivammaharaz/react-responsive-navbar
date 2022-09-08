@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkresponsivenavbar=self.webpackChunkresponsivenavbar||[]).push([[742],{449:function(s,e,n){n.r(e),n.d(e,{default:function(){return t}});n(791);var a=n.p+"static/media/img2.69f9f2c00df35481b99f.jpg",c=n(184);function t(){return console.log("contact page"),(0,c.jsx)("div",{className:"contactus-section",children:(0,c.jsx)("img",{src:a,alt:"",className:"img"})})}}}]);
+//# sourceMappingURL=742.7994deab.chunk.js.map
