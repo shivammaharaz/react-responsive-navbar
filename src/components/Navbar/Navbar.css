@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+.navbar .nav-links{
+ display: flex;
+ list-style-type: none;
+ margin-right: 10px;
+ /* flex-wrap: wrap; */
+ 
+}
+
+.home,
+.about,
+.contact,
+.product,
+.testemonials{
+    text-decoration: none;
+    color:black;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding: 8px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/* .home,
+.about:hover,
+.contact:hover,
+.product:hover,
+.testemonials:hover{
+    background: rgb(34,14,17);
+background: linear-gradient(90deg, rgba(34,14,17,0.9196720924698004) 0%, rgba(22,9,121,1) 87%, rgba(0,212,255,1) 100%);
+color: white;
+border-radius: 5px;
+
+} */
+.logo{
+    margin-left: 15px;
+    font-size: 2.3rem;
+}
+.mobile-menu-icons{
+    display: none;
+    width: 60px;
+    height: 50px;
+    /* margin-right: 1em; */
+    font-size: 2.3rem;
+}
+.mobile-menu-icons .wid{
+    width: 40px;
+    height: 40px;
+}
+
+@media screen  and (max-width:50rem){
+    .logo{
+        display: flex;
+        width: 100%;
+        
+    }
+    .navbar .nav-links{
+        display: none;
+
+    }
+
+    .mobile-menu-icons{
+        display: block;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: black;
+       
+    }
+
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color:#475a53 ;
+        left: 0px;
+        top: 60px; 
+        transition: all 1s ease-in-out;
+        width: 100%;
+
+        text-align: center;
+       }
+       .nav-links-mobile li{
+        line-height: 2.4rem;
+        padding: 11px;
+       }
+
+       .home,
+.about,
+.contact,
+.product,
+.testemonials{
+    color: white;
+    text-align: center;
+    padding: 2em;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.home,
+.about:hover,
+.contact:hover,
+.product:hover,
+.testemonials:hover{
+    color: #20b67f;
+}
+    
+}
